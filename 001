@@ -1,0 +1,7 @@
+numberList = [10, 4, 1, 20, 6]
+for i in numberList:
+  print(i)
+  if i > 15:
+    break
+
+print(numberList)
