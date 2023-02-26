@@ -3,3 +3,10 @@ def sayWelcome():
   print("商品一律九折")
 
 sayWelcome()
+
+#通过下面的代码为函数设置参数
+def sayWelcome(discount):
+  print("欢迎光临")
+  print(f"商品一律{discount}")
+ 
+ sayWelcome("7.8折")
