@@ -3,3 +3,12 @@ for item in drinks:
   if item == "coke":
     continue
   print(item)
+
+
+#给定一个列表numList，它由1，10，100，50，40，30，200七个数字构成。
+#现在要求使用带有continue的循环语句输出里面大于50的数字。
+numList = [1, 10, 100, 50, 40, 30, 200]
+for i in numList:
+    if i <= 50:
+        continue
+    print(i)
