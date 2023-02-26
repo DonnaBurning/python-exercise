@@ -1,0 +1,5 @@
+drinks = ["water", "coke", "tea", "milk"]
+for item in drinks:
+  if item == "coke":
+    continue
+  print(item)
