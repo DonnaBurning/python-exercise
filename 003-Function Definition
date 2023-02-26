@@ -1,3 +1,5 @@
 def sayWelcome():
   print("欢迎光临")
   print("商品一律九折")
+
+sayWelcome()
