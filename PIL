@@ -1,0 +1,25 @@
+macOS_path = "/Users/photo.jpg"
+
+Windows_path = r"C:\Users\photo.jpg"
+
+print(macOS_path)
+print(Windows_path)
+
+
+from PIL import Image
+img = Image.open("/Users/yeti/team.png")
+img.show()
+
+
+from PIL import Image,ImageFont
+img = Image.open("/Users/yeti/team.png")
+font = ImageFont.truetype("/Users/yeti/Songti.ttc",size=36)
+
+
+from PIL import Image,ImageFont,ImageDraw
+img = Image.open("/Users/yeti/team.png")
+font = ImageFont.truetype("/Users/yeti/Songti.ttc",size=36)
+draw = ImageDraw.Draw(img)
+draw.text(xy=(360,420),text="yeti",fill="white",font=font)
+img.show()
+img.save("/Users/yeti/team2.png")
