@@ -1,0 +1,21 @@
+import datetime
+nowTime = datetime.datetime.now()
+print(nowTime)
+
+
+from datetime import datetime
+nowTime = datetime.now()
+print(nowTime)
+
+
+
+import random
+randomNum = random.uniform(0,1)
+print(randomNum)
+
+import random
+print(random.randint(1,7))
+
+import random
+option = ["石头","剪刀","布"]
+print(random.choice(option))
